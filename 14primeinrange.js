@@ -1,7 +1,7 @@
-
-
+  let arr = []
  for(let i=2;i<=50;i++)
  {
+ 
        let count =0
     
     for(let j=1;j<=i;j++)
@@ -14,9 +14,10 @@
     }
  if(count<=2)
  {
-    
-   console.log(i);
+    arr.push(i)
+   
  }
 }
+console.log(arr);
 
  
