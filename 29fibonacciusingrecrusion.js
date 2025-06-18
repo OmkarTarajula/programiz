@@ -11,5 +11,17 @@
 // {
 //     console.log(array[i])
 // }
-
-//  
+function fib(num)
+{
+    if(num<2)
+    {
+        return num
+    }
+    else{
+        return fib(num-1)+fib(num-2)
+    }
+}
+for(let i=0;i<=8;i++)
+{
+    console.log(fib(i));
+}
